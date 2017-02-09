@@ -16,11 +16,14 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
 
+- (IBAction)alert:(id)sender {
+    [MYAlert alert:self.window Title:@"tip is here!" Informative:@"information is here!" IconName:@"1"];
+}
 @end

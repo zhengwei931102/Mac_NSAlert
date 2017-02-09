@@ -13,6 +13,8 @@
 		84F299011E49B7AD00CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F298FF1E49B7AD00CC4881 /* MainMenu.xib */; };
 		84F2990C1E49B7AE00CC4881 /* NSAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2990B1E49B7AE00CC4881 /* NSAlertTests.m */; };
 		84F299171E49B7AE00CC4881 /* NSAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F299161E49B7AE00CC4881 /* NSAlertUITests.m */; };
+		84F299261E49B7CD00CC4881 /* MYAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F299251E49B7CD00CC4881 /* MYAlert.m */; };
+		84F299281E49B87B00CC4881 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F299271E49B87B00CC4881 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,9 @@
 		84F299121E49B7AE00CC4881 /* NSAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F299161E49B7AE00CC4881 /* NSAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAlertUITests.m; sourceTree = "<group>"; };
 		84F299181E49B7AE00CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F299241E49B7CD00CC4881 /* MYAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAlert.h; sourceTree = "<group>"; };
+		84F299251E49B7CD00CC4881 /* MYAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAlert.m; sourceTree = "<group>"; };
+		84F299271E49B87B00CC4881 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,7 @@
 		84F298EB1E49B7AD00CC4881 = {
 			isa = PBXGroup;
 			children = (
+				84F299271E49B87B00CC4881 /* 1.png */,
 				84F298F61E49B7AD00CC4881 /* NSAlert */,
 				84F2990A1E49B7AE00CC4881 /* NSAlertTests */,
 				84F299151E49B7AE00CC4881 /* NSAlertUITests */,
@@ -96,6 +102,8 @@
 		84F298F61E49B7AD00CC4881 /* NSAlert */ = {
 			isa = PBXGroup;
 			children = (
+				84F299241E49B7CD00CC4881 /* MYAlert.h */,
+				84F299251E49B7CD00CC4881 /* MYAlert.m */,
 				84F298F71E49B7AD00CC4881 /* AppDelegate.h */,
 				84F298F81E49B7AD00CC4881 /* AppDelegate.m */,
 				84F298FD1E49B7AD00CC4881 /* Assets.xcassets */,
@@ -235,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F299281E49B87B00CC4881 /* 1.png in Resources */,
 				84F298FE1E49B7AD00CC4881 /* Assets.xcassets in Resources */,
 				84F299011E49B7AD00CC4881 /* MainMenu.xib in Resources */,
 			);
@@ -262,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F298FC1E49B7AD00CC4881 /* main.m in Sources */,
+				84F299261E49B7CD00CC4881 /* MYAlert.m in Sources */,
 				84F298F91E49B7AD00CC4881 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

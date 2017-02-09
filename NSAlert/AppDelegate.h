@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "MYAlert.h"
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+- (IBAction)alert:(id)sender;
 
 
 @end
